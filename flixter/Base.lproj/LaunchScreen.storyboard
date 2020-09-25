@@ -15,12 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="PDt-iE-A1p">
-                                <rect key="frame" x="118" y="264" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="PDt-iE-A1p">
+                                <rect key="frame" x="118.5" y="264" width="138" height="139"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PDt-iE-A1p" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ec8-xe-2DM"/>
+                            <constraint firstItem="PDt-iE-A1p" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kGV-ht-4Q0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
