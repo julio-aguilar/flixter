@@ -16,12 +16,15 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 - [X] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [X] (2pt) User can view the app on various device sizes and orientations.
+- [X] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
 <img src="http://g.recordit.co/tsvIrq5Wgi.gif" width=250><br>
+
+#### On iPhone 11 Pro Lanscape
+<img src="http://g.recordit.co/pdyDz7s0Jw.gif" width=250><br>
 
 ### Notes
 No challenges, the videos were very well and explained!
