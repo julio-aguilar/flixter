@@ -12,11 +12,11 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 #### BONUS
 - [X] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+- [X] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/NTtDRphi4n.gif" width=250><br>
+<img src="http://g.recordit.co/iun4DcWfXM.gif" width=250><br>
 
 ### Notes
 I encountered an issue with the way the Grid collections would put the images up and it required to do something that wasnt in any of the videos so I had to go into slack to ask and got help there from a TA who answered someone else who had the same issue
