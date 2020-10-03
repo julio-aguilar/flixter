@@ -16,7 +16,7 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/MrEDCBQPqs.gif" width=250><br>
+<img src="http://g.recordit.co/NTtDRphi4n.gif" width=250><br>
 
 ### Notes
 I encountered an issue with the way the Grid collections would put the images up and it required to do something that wasnt in any of the videos so I had to go into slack to ask and got help there from a TA who answered someone else who had the same issue
