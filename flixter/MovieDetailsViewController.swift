@@ -17,6 +17,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var voteLabel: UILabel!
     
     var movie : [String:Any]!
+    var idx: String!
     
     
     override func viewDidLoad() {
@@ -42,6 +43,7 @@ class MovieDetailsViewController: UIViewController {
         
         let backdropPath = movie["backdrop_path"] as! String
         let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
+//        let idx = movie["id"] as! String
         
         backdropView.af.setImage(withURL: backdropUrl!)
         
@@ -51,12 +53,12 @@ class MovieDetailsViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        print(movie["id"] as Any)
-        let photoViewController = segue.destination as! VideoViewController
-            
-        photoViewController.id = movie["id"] as? String
-        //        let id = movie["id"] as? UIViewController
-//        print(id)
+//        let cell = sender as! UICollectionViewCell
+//        let indexPath = collectionView.indexPath(for: cell)!
+//        let movie = movies[indexPath.row]
+          // Pass the selected object to the new view controller.
+        let VideoViewController = segue.destination as! VideoViewController
+          VideoViewController.movie = movie
 //        print("https://api.themoviedb.org/3/movie/\(id)/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US")
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
